@@ -1,0 +1,137 @@
+:root{
+    /*Colors*/
+    --primary-color: #180d5b;
+    --font-color: #000;
+    /*Background-color*/
+    --background-color: #fff;
+    --nav-background_color: #fff;
+    --background-a_hover: #c0c0c0;
+    --background-grid: #c0c0c0;
+    /*btn colors*/
+    --btn-background_color: transparent;
+    --btn-color_border: #180d5b;
+    --btn-color-font: #180d5b;
+    --btn-color-nav: #000;
+    /*Font-Colors*/
+    --a-color: #fff;
+    --a-color-overlay: #000;
+    --a-color_active: #000;
+    --a-color-projects: #000;
+    --h1-color: #fff;
+    --h2-color: #fff;
+    --shadow_color: rgba(24, 13, 91, .7);
+    --btn_color: rgba(24, 13, 91, .8);
+    --gitcolor: #000;
+}
+
+.dark-mode {
+    /*Background-color*/
+    --background-color: #181818;
+    --nav-background_color: #202020;
+    --font-color: #fff;
+    --background-a_hover: #180d5b;
+    --background-grid: #383838;
+    /*Font-Colors*/
+    --a-color-projects: #fff;
+    --a-color_active: #fff;
+    --a-color-overlay: #fff;
+    /*btn colors*/
+    --btn-background_color: #303030;
+    --btn-color_border: #303030;
+    --btn-color-font: #fff;
+    --btn-color-nav: #fff;
+    /*shadow*/
+    --shadow_color: rgba(254, 254, 254, .7);
+    --gitcolor: #fff;
+}
+
+@font-face {
+    font-family: "Encode Sans Expanded Regular";
+    src: url(../font/EncodeSansExpanded-Regular.ttf);
+    font-display: swap;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-family: "Encode Sans Expanded Regular";
+}
+
+a, li{
+    text-decoration: none;
+	list-style: none;
+}
+
+body{
+    background: var(--background-color);
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.title{
+    font-size: 1.5rem;
+    color: var(--font-color);
+}
+
+.p{
+    font-size: 1rem;
+    color: var(--font-color);
+}
+
+/*   cel    tablet      pc   *//*mas de eso se bloquea*/
+/*0px - 480px - 960px - 1328*/
+
+
+
+/*entre medios*/
+/*     320px -      768px      - 1024px */
+/*0px   -    480px   -    960px    -    1328*/
+/*breakpoint de dispositivos*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+p {
+    font-size: 1rem;  
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+figcaption {
+    font-size: 0.8rem;
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 110%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 120%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    html {
+        font-size: 120%;
+    }
+}*/

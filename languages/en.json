@@ -1,0 +1,91 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact",
+        "language": "Español",
+        "mode": "Dark Mode"
+    },
+    "header": {
+        "name": "Ricardo López",
+        "title": "I like coding and design."
+    },
+    "about": {
+        "title": "Professional resume",
+        "about": "Full-stack Developer and Android Engineer with more than 3 years of experience. Throughout my career, I have managed to build websites from local businesses and own projects. Likewise, I managed to increase by 20% the influx of new contracts in an important construction company, thanks to the easy access and positioning of the website on the web search. I had the opportunity to participate in the development of projects remotely, working under pressure, serving clients, with fast results and real-time solutions."
+    },
+    "presentation": {
+        "title": "Math-App",
+        "about": "Learn basic Mathematics in a self-taught way and for free!",
+        "article__title-1": "Browser",
+        "article__p-1": "Math-App will be available for browsers, you can access our courses for free and from anywhere.",
+        "article__title-2": "Mobile",
+        "article__p-2": "Check out the DEMO of Math-App. Download the app on your phone with Android operating system.",
+        "article__title-3": "Learn by playing",
+        "article__p-3": "Develop your basic math skills with Math-App. We want to make your learning funnier.",
+        "article__title-4": "Effective and efficient",
+        "article__p-4": "With our learning method and fun math operations, you can learn and play."
+    },
+    "projects": {
+        "title": "Projects",
+        "title__project-1": "JRB Construcciones",
+        "about__project-1": "Development of the website for the construction company JRB Construcciones.",
+        "btn__project-1": "Visit",
+        "title__project-2": "DragonCrush Z",
+        "about__project-2": "A Dragon Ball Z themed CandyCrush game with Canvas and animations.",
+        "btn__project-2": "Visit",
+        "code__project-2": "Code",
+        "title__project-3": "My Web",
+        "about__project-3": "Portfolio website using BEM methodology and more.",
+        "code__project-3": "Code",
+        "title__project-react1": "Weather API",
+        "about__project-react1": "Weather application that consumes API from Open Weather.",
+        "code__project-react1": "Code",
+        "title__project-react2": "OMDb API",
+        "about__project-react2": "Movies app consuming this API from The Open Movie Database.",
+        "code__project-react2": "Code",
+        "title__project-react3": "Landing Page",
+        "about__project-react3": "Open source website replica with React and CSS.",
+        "code__project-react3": "Code",
+        "title__project__android-1": "Math-App",
+        "about__project__android-1": "Application designed for the development on basic mathematical skills.",
+        "download__android__project-1": "Download",
+        "code__android__project-1": "Code",
+        "title__project__android-2": "Fast Scanner",
+        "about__project__android-2": "Application designed to read QR code and be able to view websites.",
+        "download__android__project-2": "Download",
+        "code__android__project-2": "Code",
+        "title__project__android-3": "Koinu",
+        "about__project__android-3": "DOGE API with recyclerview in android studio with Kotlin.",
+        "code__android__project-3": "Code",
+        "title__project__css-1": "Luffy CSS ART",
+        "about__project__css-1": "Educational replica of Temani Afif with my modifications.",
+        "code__css__project-1": "Code",
+        "title__project__node-1": "Node, MongoDB API REST",
+        "about__project__node-1": "API REST, Node js & MongoDB Atlas, Express | CRUD.",
+        "code__node__project-1": "Code",
+        "title__project__node-2": "TypeScript, Node.js y Express",
+        "about__project__node-2": "API REST, TypeScript, Node.js y Express | CRUD.",
+        "code__node__project-2": "Code",
+        "title__project__python-1": "Minecraft in Python",
+        "about__project__python-1": "Minecraft demo game in python using Ursina library.",
+        "code__python__project-1": "Code",
+        "title__project__python-2": "Python CRUD with MYSQL",
+        "about__project__python-2": "Python & MYSQL. Insert, delete, update, etc.",
+        "code__python__project-2": "Code",
+        "title__project__php-1": "PHP CRUD with MYSQL",
+        "about__project__php-1": "PHP CRUD with MYSQL and Bootstrap. Insert, delete, update, etc.",
+        "code__php__project-1": "Code",
+        "title__project__net-1": "API REST .Net Core with Postman",
+        "about__project__net-1": "API REST - .Net Core using Postman. Entity Framework.",
+        "code__net__project-1": "Code"
+
+    },
+    "clients": {
+        "title": "Clients and Collaborations"
+    },
+    "contact": {
+        "title": "Contact info"
+    }
+}

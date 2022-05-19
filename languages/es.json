@@ -1,0 +1,90 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "about": "Sobre mi",
+        "projects": "Proyectos",
+        "contact": "Contacto",
+        "language": "English",
+        "mode": "Modo Nocturno"
+    },
+    "header": {
+        "name": "Ricardo López",
+        "title": "Me gusta hacer código y diseñar, es lo más increíble de este mundo."
+    },
+    "about": {
+        "title": "Resumen Profesional",
+        "about": "Full-stack Developer y Android Engineer con más de 3 años de experiencia en el área. A lo largo de mi carrera, he logrado construir sitios web para importantes empresas locales y proyectos propios. Así mismo he conseguido elevar los contratos realizados por importante empresa constructora en un 20%, gracias al posicionamiento de su sitio web. He tenido la oportunidad de participar en el desarrollo de proyectos de forma Remota, trabajando bajo presión, atendiendo a clientes, con resultados rápidos y soluciones en tiempo real."
+    },
+    "presentation": {
+        "title": "Math-App",
+        "about": "¡Aprende Matemáticas básicas de manera autodidacta y gratis!",
+        "article__title-1": "Para navegador",
+        "article__p-1": "Math-App estará disponible para navegadores, podrás acceder a nuestros cursos gratis y desde cualquier lugar con internet.",
+        "article__title-2": "Para Mobile",
+        "article__p-2": "Mira el DEMO de Math-App. Descarga el app en tu celular con sistema operativo Android.",
+        "article__title-3": "Aprende Jugando",
+        "article__p-3": "Desarrolla tus habilidades de matemáticas básicas con Math-App. Queremos hacer tu aprendizaje más divertido.",
+        "article__title-4": "Efectivo y eficiente",
+        "article__p-4": "Con nuestro método de aprendizaje repetitivo y operaciones matemáticas divertidas, podrás aprender y jugar."
+    },
+    "projects": {
+        "title": "Proyectos",
+        "title__project-1": "JRB Construcciones",
+        "about__project-1": "Desarrollo del sitio web para constructora JRB Construcciones.",
+        "btn__project-1": "Visitar",
+        "title__project-2": "DragonCrush Z",
+        "about__project-2": "Juego CandyCrush con tema de Dragon Ball Z con Canvas y animaciones.",
+        "btn__project-2": "Visitar",
+        "code__project-2": "Código",
+        "title__project-3": "Mi web",
+        "about__project-3": "Sitio web tipo portafolio utilizando metodología BEM.",
+        "code__project-3": "Código",
+        "title__project-react1": "Weather API",
+        "about__project-react1": "Aplicación de clima que consume API desde Open Weather.",
+        "code__project-react1": "Código",
+        "title__project-react2": "OMDb API",
+        "about__project-react2": "Aplicación de películas que consume API desde The Open Movie Database.",
+        "code__project-react2": "Código",
+        "title__project-react3": "Landing Page",
+        "about__project-react3": "Replica de Sitio web de código abierto con React.",
+        "code__project-react3": "Código",
+        "title__project__android-1": "Math-App",
+        "about__project__android-1": "Aplicación diseñada para el desarrollo de habilidades matemáticas básicas.",
+        "download__android__project-1": "Descargar",
+        "code__android__project-1": "Código",
+        "title__project__android-2": "Fast Scanner",
+        "about__project__android-2": "Aplicación diseñada para leer código QR y poder visualizar los sitios web en tu celular.",
+        "download__android__project-2": "Descargar",
+        "code__android__project-2": "Código",
+        "title__project__android-3": "Koinu",
+        "about__project__android-3": "Consumo de DOGE API con reclyclerview en android studio con Kotlin.",
+        "code__android__project-3": "Código",
+        "title__project__css-1": "Luffy CSS ART",
+        "about__project__css-1": "Modificaciones estéticas al dibujo de Luffy de Temani Afif.",
+        "code__css__project-1": "Código",
+        "title__project__node-1": "Node, MongoDB API REST",
+        "about__project__node-1": "API REST, Node js & MongoDB Atlas, Express | CRUD.",
+        "code__node__project-1": "Código",
+        "title__project__node-2": "TypeScript, Node.js y Express",
+        "about__project__node-2": "API REST, TypeScript, Node.js y Express | CRUD.",
+        "code__node__project-2": "Código",
+        "title__project__python-1": "Juego Minecraft",
+        "about__project__python-1": "Juego Minecraft demo en python usando la librearia Ursina.",
+        "code__python__project-1": "Código",
+        "title__project__python-2": "Python CRUD con MYSQL",
+        "about__project__python-2": "Python y MYSQL. Insertar, eliminar, actualizar datos.",
+        "code__python__project-2": "Código",
+        "title__project__php-1": "PHP CRUD con MYSQL",
+        "about__project__php-1": "PHP CRUD con MYSQL & Bootstrap. Insertar, eliminar, actualizar datos.",
+        "code__php__project-1": "Código",
+        "title__project__net-1": "API REST .Net Core con Postman",
+        "about__project__net-1": "API REST - .Net Core usando Postman. Entity Framework.",
+        "code__net__project-1": "Código"
+    },
+    "clients": {
+        "title": "Clientes y colaboraciones"
+    },
+    "contact": {
+        "title": "Contacto"
+    }
+}

@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo Lopez</title>
+
+    <meta name="title" property='og:title' content="Ricardo's Portfolio Site"/>
+    <meta name="type" property="og:type" content="website"/>
+    <meta name="image" propiedad='og:image' content='https://ricardolopez-6da91.web.app/img/linkedinbanner.png'/>
+    <meta name="url" property='og:url' content='https://ricardolopez-6da91.web.app/'/>
+    <meta name="description" property='og:description' content='Ricardo Lopez - Web and Android dev'/>
+
+    <meta name="description" content="Ricardo Lopez - Web and Android dev"/>
+    <link rel="icon" type="" href="img/logo.png"/>
+    <meta name="keywords" content="programador, desarrollador, paginas web"/>
+    <meta name="author" content="Ricardo Lopez"/>
+    <meta name="copyright" content="Ricardo Lopez"/>
+
+    <script type="module" src="js/script.js"></script>
+    <script type="module" src="js/language.js"></script>
+
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/nav_bar.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/stars.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
+    <link href="css/scrol_icon.css" rel="stylesheet">
+    <link href="css/math_app.css" rel="stylesheet">
+    <link href="css/projects.css" rel="stylesheet">
+    <link href="css/clients.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    
+    <link rel="stylesheet preload prefetch" href="/font/EncodeSansExpanded-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+
+</head>
+<body>   
+
+    <header class="header">
+        <section class="header__background">
+            <div id='stars'></div>
+            <div id='stars2'></div>
+            <div id='stars4'></div>
+        </section>
+        <section class="header__titles">
+            <h1 data-section="header" data-value="name">Ricardo López</h1>
+            <h2 data-section="header" data-value="title">I like coding and design.</h2>
+        </section> 
+        <section class="header__scroll">
+            <svg viewBox="0 0 24 90" class="scroll-icon" fill="white">
+                <path d="M2,12H2V30a10,10,0,1,0,20,0V12A10,10,0,1,0,2,12ZM0,12a12,12,0,1,1,24,0V30A12,12,0,1,1,0,30V12Z"/>
+                <path d="M11,7v4a1,1,0,0,0,2,0V7a1,1,0,0,0-2,0Z"/>
+                <path class="arrow" d="M12,53l5.5-5.5a1,1,0,0,1,1.41,0,1,1,0,0,1,0,1.42l-6.2,6.2a1,1,0,0,1-1.42,0L5,48.86a1,1,0,0,1,1.41-1.41Z"/>
+            </svg>
+        </section>  
+    </header> 
+
+    <nav id="navbar" class="navbar">
+        <section class="navbar__container">
+            <picture class="logo__container">
+                <a href="#" target="_top">
+                    <img id="navbar-logo" title="Ricardo Lopez" class="navbar-logo" src="img/firmaBlack.png" alt="Ricardo Lopez">
+                </a>
+            </picture>
+            <section class="navbar__menu">
+                <div id="navbar__item-1">
+                    <a class="navbar__a" href="#" data-section="nav" data-value="home">Home</a>
+                </div>
+                <div id="navbar__item-2">
+                    <a class="navbar__a" href="#about" data-section="nav" data-value="about">About</a>
+                </div>
+                <div id="navbar__item-3">
+                    <a class="navbar__a" href="#projects" data-section="nav" data-value="projects">Projects</a>
+                </div>
+                <div id="navbar__item-4">
+                    <a class="navbar__a" href="#contact" data-section="nav" data-value="contact">Contact</a>
+                </div>
+                <div id="navbar__item-5">
+                    <span class="navbar__a" data-language="language" data-section="nav" data-value="language">Español</span>
+                </div>
+                <div id="darkmode" class="navbar__a darkmode">
+                    <div class="darkmode__btn">
+                        <div class="darkmode__container">
+                            <i class="fas fa-sun"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="nav__btn">
+                <i id="nav__btn" class="fa fa-bars"></i>
+            </div>
+        </section>
+    </nav>
+
+    <section class="nav__overlay" id="nav__overlay">
+        <div class="nav__overlay-icon">
+            <i id="nav__cerrar" class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <div id="overlay__container" class="overlay__container">
+            <div class="overlay__menu">
+                <a class="link" href="#" data-section="nav" data-value="home">Home</a>
+                <a class="link" href="#about" data-section="nav" data-value="about">About</a>
+                <a class="link" href="#projects" data-section="nav" data-value="projects">Projects</a>
+                <a class="link" href="#contact" data-section="nav" data-value="contact">Contact</a>
+                <span id="link5" class="link" data-language="language" data-section="nav" data-value="language">Español</span>
+                <div class="overlar__darkmode">
+                    <span id="link6" class="link" data-section="nav" data-value="mode">Modo Nocturno</span><span>&nbsp;</span>
+                    <span id="darkmode_overlay" class="darkmode_on">Off</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <section class="about__container-title">
+            <h2 class="title" data-section="about" data-value="title">Professional resume</h2>
+        </section>
+        <section class="about__container">
+            <p class="p about__me" data-section="about" data-value="about">
+                Full-stack Developer and Android Engineer with more than 3 years of experience. Throughout my career, I have managed to build websites from local businesses and own projects. 
+                Likewise, I managed to increase by 20% the influx of new contracts in an important construction company, thanks to the easy access and positioning of the website on the web search. 
+                I had the opportunity to participate in the development of projects remotely, working under pressure, serving clients, with fast results and real-time solutions.
+            </p>
+        </section>
+    </section>
+
+    <section class="presentation">
+        <header class="presentation__header">
+            <h2 class="title" data-section="presentation" data-value="title">Math-App</h2>
+            <p class="p presentation-p" data-section="presentation" data-value="about">
+                Learn basic Mathematics in a self-taught way and for free!
+            </p>
+        </header>
+
+        <div class="presentation__container">
+            <section class="presentation__study">                                                                                                                           
+                <article class="article__container">
+                    <picture class="img__container">
+                        <img loading="lazy" class="article-img" src="img/game.png" alt="">
+                    </picture>
+                    <div class="article__txt">
+                        <h3 class="article-title" data-section="presentation" data-value="article__title-3">Learn by playing</h3>
+                        <p class="article-about" data-section="presentation" data-value="article__p-3">
+                            Develop your basic math skills with Math-App. We want to make your learning funnier.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="article__container">
+                    <picture class="img__container">
+                        <img loading="lazy" class="article-img" src="img/check.png" alt="">
+                    </picture>
+                    <div class="article__txt">
+                        <h3 class="article-title" data-section="presentation" data-value="article__title-4">Effective and efficient</h3>
+                        <p class="article-about" data-section="presentation" data-value="article__p-4">
+                            With our learning method and fun math operations, you can learn and play.
+                        </p>
+                    </div>
+                </article>
+
+            </section>
+
+            <a href="https://ricardolopez-6da91.web.app/" class="presentation__picture" target="_blank">
+                <img title="Math-App" loading="lazy" class="picture-img" src="img/promoMathApp.png" alt="Math-App">
+            </a>
+
+            <section class="presentation__about"> 
+                <article class="article__container">
+                    <picture class="img__container">
+                        <img loading="lazy" class="article-img" src="img/web.png" alt="">
+                    </picture>
+                    <div class="article__txt">
+                        <h3 class="article-title" data-section="presentation" data-value="article__title-1">Browser</h3>
+                        <p class="article-about" data-section="presentation" data-value="article__p-1">
+                            Math-App will be available for browsers, you can access our courses for free and from anywhere.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="article__container">
+                    <picture class="img__container">
+                        <img loading="lazy" class="article-img" src="img/mobile.png" alt="">
+                    </picture>
+                    <div class="article__txt">
+                        <h3 class="article-title" data-section="presentation" data-value="article__title-2">Mobile</h3>
+                        <p class="article-about" data-section="presentation" data-value="article__p-2">
+                            Check out the DEMO of Math-App. Download the app on your phone with Android operating system.
+                        </p>
+                    </div>
+                </article>
+            </section>
+        </div>
+        
+    </section>
+
+    <section id="projects" class="projects"> 
+
+        <header class="projects__header">
+			<h2 class="projects__title" data-section="projects" data-value="title">Projects</h2>
+
+			<ul class="projects__categorias" id="projects__categorias">
+				<li>
+                    <a id="web" href="#" class="projects__a-container">
+                        <span id="spanWeb" class="projects__a activo">Web</span>
+                    </a>       
+                </li>
+				<li>
+                    <a id="react" href="#" class="projects__a-container">
+                        <span id="spanReact" class="projects__a">React</span>
+                    </a>       
+                </li>
+                <li>
+                    <a id="android" href="#" class="projects__a-container">
+                        <span id="spanAndroid" class="projects__a">Android</span>
+                    </a>       
+                </li>
+                <li>
+                    <a id="css" href="#" class="projects__a-container">
+                        <span id="spanCSS" class="projects__a">CSS Art</span>
+                    </a>       
+                </li>
+                <li>
+                    <a id="node" href="#" class="projects__a-container">
+                        <span id="spanNode" class="projects__a">Node.js</span>
+                    </a>       
+                </li>
+                <li>
+                    <a id="python" href="#" class="projects__a-container">
+                        <span id="spanPython" class="projects__a">Python</span>
+                    </a>       
+                </li>
+                <li>
+                    <a id="php" href="#" class="projects__a-container">
+                        <span id="spanPHP" class="projects__a">PHP</span>
+                    </a>       
+                </li>
+                <li>
+                    <a id="net" href="#" class="projects__a-container">
+                        <span id="spanNet" class="projects__a">.net</span>
+                    </a>       
+                </li>
+            </ul>
+        </header>
+
+        <div id="grid" class="grid">
+
+            <article id="web1" class="item">
+                <img title="JRB Construcciones" class="item__img" src="img/Proyecto1.webp" alt="JRB Construcciones">
+                <div class="item__information">
+                    <h3 class="item_title" data-section="projects" data-value="title__project-1">JRB Construcciones</h3>
+                    <p class="item_p" data-section="projects" data-value="about__project-1">                        
+                        Development of the website for the construction company JRB Construcciones.
+                    </p>
+                </div>
+                <div class="skills">
+                    <span class="skill html5">HTML5</span>
+                    <span class="skill css3">CSS3</span>
+                    <span class="skill javascript">Javascript</span>
+                </div>
+                <footer class="item__footer">
+                    <a class="item__footer-a" href="https://jrb-construcciones.web.app/" target="_blank" data-section="projects" data-value="btn__project-1"><span>Visit</span></a>
+                </footer>
+            </article>
+
+            <article id="web2" class="item">
+                <img title="DragonCrush Z" class="item__img" src="img/Proyecto2.webp" alt="DragonCrush Z">
+                <div class="item__information">
+                    <h3 class="item_title" data-section="projects" data-value="title__project-2">DragonCrush Z</h3>
+                    <p class="item_p" data-section="projects" data-value="about__project-2">
+                        A Dragon Ball Z themed CandyCrush game with Canvas and animations.
+                    </p>
+                </div>
+                <div class="skills">
+                    <span class="skill html5">HTML5</span>
+                    <span class="skill css3">CSS3</span>
+                    <span class="skill javascript">Javascript</span>
+                </div>
+                <footer class="item__footer">
+                    <a class="item__footer-a" href="https://dragoncrushz.web.app/" target="_blank" data-section="projects" data-value="btn__project-2"><span>Play</span></a>
+                    <a class="item__footer-a" href="https://github.com/mrlopezharo/DragonCrush-Z-RL" target="_blank" data-section="projects" data-value="code__project-2"><span>Code</span></a>
+                </footer>
+            </article>
+
+            <article id="web3" class="item">
+                <img title="Ricardo Lopez" class="item__img" src="img/Proyecto3.webp" alt="Ricardo Lopez">
+                <div class="item__information">
+                    <h3 class="item_title" data-section="projects" data-value="title__project-3">My web</h3>
+                    <p class="item_p" data-section="projects" data-value="about__project-3">
+                        Portfolio website using BEM methodology and more.
+                    </p>
+                </div>
+                <div class="skills">
+                    <span class="skill html5">HTML5</span>
+                    <span class="skill css3">CSS3</span>
+                    <span class="skill javascript">Javascript</span>
+                </div>
+                <footer class="item__footer">
+                    <a class="item__footer-a" href="https://github.com/mrlopezharo/Portafolio" target="_blank" data-section="projects" data-value="code__project-3"><span>Code</span></a>
+                </footer>
+            </article>
+
+            <article id="react1" class="item">
+                    <img loading="lazy" title="Weather API" class="item__img" src="img/react1.png" alt="Weather API - Practica">
+                    <div class="item__information">
+                        <h3 class="item_title" data-section="projects" data-value="title__project-react1">Weather API</h3>
+                        <p class="item_p" data-section="projects" data-value="about__project-react1">
+                            Weather application that consumes API from Open Weather.
+                        </p>
+                    </div>
+                    <div class="skills">
+                        <span class="skill react">React</span>
+                        <span class="skill bootstrap">Bootstrap</span>
+                        <span class="skill javascript">Javascript</span>
+                    </div>
+                    <footer class="item__footer">
+                        <a class="item__footer-a" href="https://github.com/mrlopezharo/Weather-API-" target="_blank" data-section="projects" data-value="code__project-react1"><span>Code</span></a>
+                    </footer>
+            </article>
+
+            <article id="react2" class="item">
+                <img loading="lazy" title="OMDb API" class="item__img" src="img/react2.png" alt="OMDb API - Practica">
+                <div class="item__information">
+                    <h3 class="item_title" data-section="projects" data-value="title__project-react2">OMDb API</h3>
+                    <p class="item_p" data-section="projects" data-value="about__project-react2">
+                        Movies app consuming this API from The Open Movie Database.
+                    </p>
+                </div>
+                <div class="skills">
+                    <span class="skill react">React</span>
+                    <span class="skill bootstrap">Bootstrap</span>
+                    <span class="skill javascript">Javascript</span>
+                </div>
+                <footer class="item__footer">
+                    <a class="item__footer-a" href="https://github.com/mrlopezharo/OMDb-API---Practice" target="_blank" data-section="projects" data-value="code__project-react2"><span>Code</span></a>
+                </footer>
+            </article>
+
+            <article id="react3" class="item">
+                <img loading="lazy" title="Landing Page" class="item__img" src="img/landing.png" alt="Landing Page">
+                <div class="item__information">
+                    <h3 class="item_title" data-section="projects" data-value="title__project-react3">Landing Page</h3>
+                    <p class="item_p" data-section="projects" data-value="about__project-react3">
+                        Open source website replica with React and CSS.
+                    </p>
+                </div>
+                <div class="skills">
+                    <span class="skill react">React</span>
+                    <span class="skill css3">CSS3</span>
+                    <span class="skill javascript">Javascript</span>
+                </div>
+                <footer class="item__footer">
+                    <a class="item__footer-a" href="https://github.com/mrlopezharo/Landing-Page-React" target="_blank" data-section="projects" data-value="code__project-react3"><span>Code</span></a>
+                </footer>
+            </article>
+
+            <article id="android1" class="item">
+                <img loading="lazy" title="MateAppticas" class="item__img" src="img/mateappticas.webp" alt="MateAppticas">
+                <div class="item__information">
+                    <h3 class="item_title" data-section="projects" data-value="title__project__android-1">Math-App</h3>
+                    <p class="item_p" data-section="projects" data-value="about__project__android-1">
+                        Application designed for the development on basic mathematical skills.
+                    </p>
+                </div>
+                <div class="skills">
+                    <span class="skill android">Android</span>
+                    <span class="skill Kotlin">Kotlin</span>
+                    <span class="skill firebase">Firebase</span>
+                </div>
+                <footer class="item__footer">
+                    <a class="item__footer-a" href="https://www.mediafire.com/file/xn9r1vpenpjs1ci/app-release.apk/file" target="_blank" data-section="projects" data-value="download__android__project-1"><span>Download</span></a>
+                    <a class="item__footer-a" href="https://github.com/mrlopezharo/MateAppticas" target="_blank" data-section="projects" data-value="code__android__project-1"><span>Code</span></a>
+                </footer>
+            </article>
+
+            <article id="android2" class="item">
+                <img loading="lazy" title="Fast scanner" class="item__img" src="img/fastscanner.webp" alt="Fast scanner">
+                <div class="item__information">
+                    <h3 class="item_title" data-section="projects" data-value="title__project__android-2">Fast Scanner</h3>
+                    <p class="item_p" data-section="projects" data-value="about__project__android-2">
+                        Application designed to read QR code and be able to view websites.
+                    </p>
+                </div>
+                <div class="skills">
+                    <span class="skill android">Android</span>
+                    <span class="skill Kotlin">Kotlin</span>
+                </div>
+                <footer class="item__footer">
+                    <a class="item__footer-a" href="https://www.mediafire.com/file/8nqpduaou7m5a8b/FastScannerRL.apk/file" target="_blank" data-section="projects" data-value="download__android__project-2"><span>Download</span></a>
+                    <a class="item__footer-a" href="https://github.com/mrlopezharo/FastScanner" target="_blank" data-section="projects" data-value="code__android__project-2"><span>Code</span></a>
+                </footer>
+            </article>
+
+            <article id="android3" class="item">
+                <img loading="lazy" title="Koinu" class="item__img" src="img/koinu.webp" alt="Koinu">
+                <div class="item__information">
+                    <h3 class="item_title" data-section="projects" data-value="title__project__android-3">Koinu</h3>
+                    <p class="item_p" data-section="projects" data-value="about__project__android-3">
+                        DOGE API with recyclerview in Android Studio with Kotlin.
+                    </p>
+                </div>
+                <div class="skills">
+                    <span class="skill android">Android</span>
+                    <span class="skill Kotlin">Kotlin</span>
+                </div>
+                <footer class="item__footer">
+                    <a class="item__footer-a" href="https://github.com/mrlopezharo/Api-doge" target="_blank" data-section="projects" data-value="code__android__project-3"><span>Code</span></a>
+                </footer>
+            </article>
+
+            <article id="css1" class="item">
+                <img loading="lazy" title="Monkey D. Luffy" class="item__img" src="img/luffuCSSART.png" alt="Monkey D. Luffy">
+                <div class="item__information">
+                    <h3 class="item_title" data-section="projects" data-value="title__project__css-1">Luffy CSS ART</h3>
+                    <p class="item_p" data-section="projects" data-value="about__project__css-1">
+                        Educational replica of Temani Afif with personal modifications.
+                    </p>
+                </div>
+                <div class="skills">
+                    <span class="skill html5">HTML5</span>
+                    <span class="skill css3">CSS3</span>
+                </div>
+                <footer class="item__footer">
+                    <a class="item__footer-a" href="https://github.com/mrlopezharo/css-art-One-Piece-Luffy-Practice" target="_blank" data-section="projects" data-value="code__css__project-1"><span>Code</span></a>
+                </footer>
+            </article>
+
+            <article id="node1" class="item">
+                <img loading="lazy" title="Node MongoDB CRUD" class="item__img" src="img/node1.png" alt="Node MongoDB CRUD">
+                <div class="item__information">
+                    <h3 class="item_title" data-section="projects" data-value="title__project__node-1">Node, MongoDB API REST</h3>
+                    <p class="item_p" data-section="projects" data-value="about__project__node-1">
+                        API REST, Node js & MongoDB Atlas, Express | CRUD.
+                    </p>
+                </div>
+                <div class="skills">
+                    <span class="skill node1">N</span><span id="nodeSpan1" class="skill node2">o</span><span class="skill node3">de.js</span>
+                    <span class="skill express">Express</span>
+                    <span class="skill mongodb">MongoDB</span>
+                </div>
+                <footer class="item__footer">
+                    <a class="item__footer-a" href="https://github.com/mrlopezharo/API-REST-Nodejs-MongoDB-Atlas-Express" target="_blank" data-section="projects" data-value="code__node__project-1"><span>Code</span></a>
+                </footer>
+            </article>
+
+            <article id="node2" class="item">
+                <img loading="lazy" title="TypeScript con Node.js y Express CRUD" class="item__img" src="img/node2.png" alt="TypeScript con Node.js y Express CRUD">
+                <div class="item__information">
+                    <h3 class="item_title" data-section="projects" data-value="title__project__node-2">TypeScript, Node.js y Express</h3>
+                    <p class="item_p" data-section="projects" data-value="about__project__node-2">
+                        API REST, TypeScript, Node.js y Express | CRUD.
+                    </p>
+                </div>
+                <div class="skills">
+                    <span class="skill node1">N</span><span id="nodeSpan2" class="skill node2">o</span><span class="skill node3">de.js</span>
+                    <span class="skill express">Express</span>
+                    <span class="skill typescript">TypeScript</span>
+                </div>
+                <footer class="item__footer">
+                    <a class="item__footer-a" href="https://github.com/mrlopezharo/TypeScript-con-Node.js-y-Express" target="_blank" data-section="projects" data-value="code__node__project-1"><span>Code</span></a>
+                </footer>
+            </article>
+
+            <article id="python1" class="item">
+                <img loading="lazy" title="Minecraft in Python with Ursina" class="item__img" src="img/python1.png" alt="Minecraft in Python with Ursina">
+                <div class="item__information">
+                    <h3 class="item_title" data-section="projects" data-value="title__project__python-1">Minecraft in Python</h3>
+                    <p class="item_p" data-section="projects" data-value="about__project__python-1">
+                        Minecraft demo game in python using Ursina library.
+                    </p>
+                </div>
+                <div class="skills">
+                    <span class="skill python">Python</span>
+                    <span class="skill ursina">Ursina</span>
+                </div>
+                <footer class="item__footer">
+                    <a class="item__footer-a" href="https://github.com/mrlopezharo/Minecraft-Python" target="_blank" data-section="projects" data-value="code__python__project-1"><span>Code</span></a>
+                </footer>
+            </article>
+
+            <article id="python2" class="item">
+                <img loading="lazy" title="Python CRUD with MYSQL" class="item__img" src="img/python2.png" alt="Python CRUD with MYSQL">
+                <div class="item__information">
+                    <h3 class="item_title" data-section="projects" data-value="title__project__python-2">Python CRUD with MYSQL</h3>
+                    <p class="item_p" data-section="projects" data-value="about__project__python-2">
+                        Python & MYSQL. Insert, delete, update, etc.
+                    </p>
+                </div>
+                <div class="skills">
+                    <span class="skill python">Python</span>
+                    <span class="skill mysql1">MY</span><span class="skill mysql2">SQL</span>
+                </div>
+                <footer class="item__footer">
+                    <a class="item__footer-a" href="https://github.com/mrlopezharo/Python-CRUD-MYSQL-Console" target="_blank" data-section="projects" data-value="code__python__project-2"><span>Code</span></a>
+                </footer>
+            </article>
+
+            <article id="php1" class="item">
+                <img loading="lazy" title="PHP CRUD with MYSQL and Bootstrap" class="item__img" src="img/php1.png" alt="PHP CRUD with MYSQL and Bootstrap">
+                <div class="item__information">
+                    <h3 class="item_title" data-section="projects" data-value="title__project__php-1">PHP CRUD with MYSQL</h3>
+                    <p class="item_p" data-section="projects" data-value="about__project__php-1">
+                        PHP CRUD with MYSQL and Bootstrap. Insert, delete, update, etc.
+                    </p>
+                </div>
+                <div class="skills">
+                    <span class="skill php">PHP</span>
+                    <span class="skill mysql1">MY</span><span class="skill mysql2">SQL</span>
+                    <span class="skill bootstrap">Bootstrap</span>
+                </div>
+                <footer class="item__footer">
+                    <a class="item__footer-a" href="https://github.com/mrlopezharo/CRUD-PHP" target="_blank" data-section="projects" data-value="code__php__project-1"><span>Code</span></a>
+                </footer>
+            </article>
+
+            <article id="net1" class="item">
+                <img loading="lazy" title="API REST .Net Core with Postman" class="item__img" src="img/net1.png" alt="API REST .Net Core with Postman">
+                <div class="item__information">
+                    <h3 class="item_title" data-section="projects" data-value="title__project__net-1">API REST .Net Core with Postman</h3>
+                    <p class="item_p" data-section="projects" data-value="about__project__net-1">
+                        API REST - .Net Core using Postman. Entity Framework. 
+                    </p>
+                </div>
+                <div class="skills">
+                    <span class="skill c">C#</span>
+                    <span class="skill sql">SQL Server</span>
+                    <span class="skill postman">Postman</span>
+
+                </div>
+                <footer class="item__footer">
+                    <a class="item__footer-a" href="https://github.com/mrlopezharo/apirest_entity_framework" target="_blank" data-section="projects" data-value="code__net__project-1"><span>Code</span></a>
+                </footer>
+            </article>            
+
+        </div>
+
+    </section>
+
+    <section class="clients">
+        <header class="clients__header">
+            <h2 class="title clients-title" data-section="clients" data-value="title">Clients and Collaborations</h2>
+        </header>
+        <picture class="clients__logos">
+            <a href="https://jrb-construcciones.web.app/" target="_blank"><img loading="lazy" title="JRB Construcciones" class="client-img" src="img/jrbconstrucciones.png" alt="JRB Construcciones"></a>
+            <a href="https://akariladonro.com/" target="_blank"><img loading="lazy" title="Akariladon" class="client-img" src="img/akariladon.png" alt="Akariladon"></a>
+        </picture>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="footer__logo">
+            <a href="#" target="_top">
+                <img title="Ricardo Lopez" loading="lazy" id="footer__logo-img" class="footer__logo-img" src="img/firmaBlack.png" alt="">
+            </a>
+            <h2 class="title" data-section="contact" data-value="title">Contact info</h2>
+        </div>
+        <section class="social">
+            <a title="Github" href="https://github.com/mrlopezharo" target="_blank"><span id="github" class="fab fa-github"></span></a>
+            <a title="Linkedin" href="https://www.linkedin.com/in/martin-ricardo-lopez-haro-3303b0236/" target="_blank"><span id="linkedin" class="fab fa-linkedin"></span></a>
+            <a title="Youtube" href="https://github.com/mrlopezharo" target="_blank"><span id="youtube" class="fab fa-youtube"></span></a>
+        </section>
+        <footer class="legal">
+            <a href="#" target="_top">
+                <p class="legal__p footer__copyright">Ricardo López. © 2022 All rights reserved.</p>
+            </a>
+            <a href="#" target="_top">
+                <p class="legal__p footer__dev">Designed by Ricardo Lopez.</p>
+            </a>
+            
+        </footer>
+    </footer>
+
+</body>
+</html>
